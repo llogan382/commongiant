@@ -1,0 +1,25 @@
+{
+  "name": "commin-giant-slider",
+  "version": "1.0.0",
+  "description": "Work for Common Giant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llogan382/commongiant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llogan382/commongiant/issues"
+  },
+  "homepage": "https://github.com/llogan382/commongiant#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^4.27.0"
+  }
+}
