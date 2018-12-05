@@ -3,6 +3,11 @@ body {
   height: 100%;
 }
 
+.toggle-button {
+  color: #000;
+  background-color: #000;
+  border: none;
+}
 .slideout-menu {
   position: fixed;
   top: 0;

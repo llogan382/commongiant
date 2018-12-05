@@ -10,6 +10,7 @@
     
         <link rel="stylesheet" href="css/combined-css.css"><script src="js/jquery-1.7.1.js"></script>
         <link rel="stylesheet" href="css/slideout.css">
+        <link href="css/hamburgers.css" rel="stylesheet">
     <script>hsjQuery = window['jQuery'];</script>
         
         <meta property="og:description" content="A small agency with big ideas collaborating with great people, evolving brands, and creating remarkable experiences.">
@@ -52,32 +53,26 @@
     </head>
     
     
-<body>
+    <body class="home-page   hs-content-id-4267115137 hs-site-page page " style="">
+
     
     <!-- This will be my menu -->
     <nav id="menu">
-
-                <h2>Hello</h2>
-                <h2>Hello</h2>
-
-
         
                 <h2><a href="//www.commongiant.com" role="menuitem">Home</a></h2>
                 <h2><a href="//www.commongiant.com/portfoh2o" role="menuitem">Work</a></h2>
                 <h2><a href="//www.commongiant.com/services" role="menuitem">Strengths</a></h2>
                 <h2><a href="//www.commongiant.com/blog" role="menuitem">Blog</a></h2>
                 <h2><a href="//www.commongiant.com/contact" role="menuitem">Contact</a></h2>
-    
-            
-              
+               
     </nav>
     
     
                 <!-- End of Slideout menu -->
-        <!-- Adds "Panel" to page for slideout.js -->
+         <!-- Start Panel for slideout.js-->
+        
         <main id="panel">
                 <header>
-                    <button class="toggle-button">☰</button>
                     <div class="header-container-wrapper">
                             <div class="header-container container-fluid">
                         
@@ -90,10 +85,22 @@
                         <div class="span12 widget-span widget-type-cell custom-header-container" style="" data-widget-type="cell" data-x="0" data-w="12">
                         
                         <div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+                                <!-- <button class="hamburger hamburger--collapse is-active" type="button">
+                                        <span class="hamburger-box">
+                                          <span class="hamburger-inner"></span>
+                                        </span>
+                                      </button> -->
+                        <button class="toggle-button hamburger--arrowalt" type="button">
+                            <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                    </span>
+                        </button>
+
                         <div class="row-fluid ">
                         <div class="span12 widget-span widget-type-cell page-center" style="" data-widget-type="cell" data-x="0" data-w="12">
                         
                         <div class="row-fluid-wrapper row-depth-1 row-number-3 ">
+
                         <div class="row-fluid ">
                         <div class="span5 widget-span widget-type-rich_text custom-logo" style="" data-widget-type="rich_text" data-x="0" data-w="5">
                         <div class="cell-wrapper layout-widget-wrapper">
@@ -132,6 +139,7 @@
                         <div class="span12 widget-span widget-type-menu custom-menu-primary visible-phone" style="" data-widget-type="menu" data-x="0" data-w="12">
                         <div class="cell-wrapper layout-widget-wrapper">
                         <span id="hs_cos_wrapper_module_14520690041395418" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_module_14520690041395418" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="Commongiant Header Menu" aria-label="Navigation Menu">
+
                          <ul class="active-branch">
                           <li class="hs-menu-item hs-menu-depth-1 active active-branch"><a href="//www.commongiant.com" role="menuitem">Home</a></li>
                           <li class="hs-menu-item hs-menu-depth-1"><a href="//www.commongiant.com/portfolio" role="menuitem">Work</a></li>
@@ -157,10 +165,8 @@
                         </div><!--end header wrapper -->
 
 
-                    <!-- Start Panel for slideout.js-->
                     <div class="body-container-wrapper">
-                            <div class="body-container container-fluid">
-                     <button class="toggle-button">☰</button>
+                        <div class="body-container container-fluid">
 
                         
                         <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
@@ -500,9 +506,9 @@
     
                 </header>
             </main>
-
             <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
-            <script>
+
+                 <script>
               var slideout = new Slideout({
                 'panel': document.getElementById('panel'),
                 'menu': document.getElementById('menu'),
@@ -557,6 +563,7 @@
     
     <script src="js/project.js"></script>
     
+
     <!-- Start of HubSpot Analytics Code -->
     <script type="text/javascript">
     var _hsq = _hsq || [];
@@ -601,5 +608,4 @@
         <script src="main.js"></script>
     
     <!-- end coded_template: id:4600759503 path:generated_layouts/4600759498.html -->
-    </body>
-    </html>
+    </body></html>
