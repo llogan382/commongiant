@@ -20,13 +20,6 @@ body {
   display: none;
 }
 
-.slideout-menu-left {
-  left: 0;
-}
-
-.slideout-menu-right {
-  right: 0;
-}
 
 .slideout-panel {
   position: relative;
